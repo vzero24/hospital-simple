@@ -27,7 +27,7 @@
 
             <?php
 
-            // الاتصال بالسيرفر او قاعدة
+            // Connect to the server or base
             $host               = "localhost";
             $user               = "root";
             $password      = "";
@@ -35,7 +35,7 @@
 
             $conn = mysqli_connect($host, $user, $password, $dbName);
 
-            // ارسال المعلومات المُدخله بواسطة المريض الى قاعدة البيانات
+            // Sending the information entered by the patient to the database
 
             if ($_POST['send']) {
 

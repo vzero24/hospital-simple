@@ -19,7 +19,7 @@ include "header.php";
 
     $conn = mysqli_connect($host, $user, $password, $dbName);
 
-    // إستيراد معلومات المرضى من قاعدة البيانات
+    // Import patient information from the database
 
     $query = "SELECT * FROM patients";
     $result = mysqli_query($conn, $query);
